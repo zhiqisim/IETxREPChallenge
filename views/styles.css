@@ -1,0 +1,7 @@
+#first {
+    background-image: url(public/background.gif);
+    background-repeat: repeat-x;
+    background-size: 300px 1000px;
+    height: 1000px;
+  }
+  
