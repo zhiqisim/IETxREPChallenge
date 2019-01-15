@@ -5,8 +5,13 @@
     height: 1000px;
   } */
 
+  
   .bg-custom {
    background-color: #111;
+  }
+
+  .bg-2 {
+   background-color: #e9ecef;
   }
   
   .demo {
@@ -50,15 +55,20 @@
     }
  }
 
+ .container-fluid {
+   padding-top: 80px;
+   padding-bottom: 80px;
+
+ }
+
   h2 {
     text-align: center;
-    margin-bottom: 25px;
-    margin-top: 50px;
+    padding-bottom: 25px;
   }
 
   h4 {
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 
   p {
