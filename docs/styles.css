@@ -87,7 +87,7 @@ a.button1 {
    text-align: center;
    transition: all 0.2s;
    position: absolute;
-   margin-top: 210px;
+   margin-top: 200px;
    text-align: center;
    top: 35%;
    left: 50%;
@@ -100,21 +100,16 @@ a.button1:hover {
    background-color: #F9F1E9;
 }
 
-@media all and (max-width:30em) {
+/* @media all and (max-width:30em) {
    a.button1 {
-      display: block;
-      margin: 0.4em auto;
+      font-size: 2.0em;
    }
-}
-
-@media all and (max-width:30em) {
-   a.button1 {
-      display: block;
-      margin: 0.4em auto;
+   .details {
+      font-size: 0.8em; 
    }
-}
+} */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
    .demo .main-title {
       font-size: 3em;
    }
