@@ -58,6 +58,30 @@
  .main-title .thin {
     font-weight: 200;
  }
+
+ .details {
+   position: absolute;
+   margin-top: 100px;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+ }
+
+ #register {
+   position: absolute;
+   margin-top: 200px;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+ }
  
  @media only screen and (max-width: 768px) {
     .demo .main-title {
