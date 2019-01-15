@@ -5,7 +5,20 @@
     height: 1000px;
   } */
 
-  
+  @media (min-width: 992px){
+   .navbar-brand{
+      margin-left: 3em;
+   }
+
+   .navbar li {
+       margin-left : 1em;
+       margin-right : 1em;
+   }
+
+   .nav-end{
+      margin-right: 3em;
+   }
+}
   .bg-custom {
    background-color: #111;
   }
