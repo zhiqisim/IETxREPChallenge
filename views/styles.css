@@ -5,6 +5,10 @@
     height: 1000px;
   } */
 
+html {
+   scroll-behavior: smooth;
+}
+
 @media (min-width: 992px) {
    .navbar-brand {
       margin-left: 3em;
@@ -41,7 +45,7 @@
    padding: 0;
    color: #F9F1E9;
    text-align: center;
-   top: 50%;
+   top: 35%;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
@@ -63,7 +67,7 @@
    padding: 0;
    color: #F9F1E9;
    text-align: center;
-   top: 50%;
+   top: 35%;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
@@ -85,7 +89,7 @@ a.button1 {
    position: absolute;
    margin-top: 210px;
    text-align: center;
-   top: 50%;
+   top: 35%;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
