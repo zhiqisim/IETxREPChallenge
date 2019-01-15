@@ -100,14 +100,14 @@ a.button1:hover {
    background-color: #F9F1E9;
 }
 
-/* @media all and (max-width:30em) {
+@media all and (max-width:25em) {
    a.button1 {
-      font-size: 2.0em;
+      font-size: 2.1em;
    }
    .details {
-      font-size: 0.8em; 
+      font-size: 0.9em; 
    }
-} */
+}
 
 @media only screen and (max-width: 850px) {
    .demo .main-title {
